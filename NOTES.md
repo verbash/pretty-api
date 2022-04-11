@@ -1,0 +1,2 @@
+* Make sure using correct table/column ids found in database.sql 
+* May want to quarry by punk (since that's the id) rather than by punk_id, although since we have more than one series we may need a more complex query like "SELECT * FROM punks WHERE punk = $1 AND token_series_id = $2"
